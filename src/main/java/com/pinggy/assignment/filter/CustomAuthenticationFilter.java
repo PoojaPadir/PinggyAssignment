@@ -57,5 +57,6 @@ public class CustomAuthenticationFilter extends OncePerRequestFilter {
 
     public static void clearAuthHeaderValue() {
         AUTH_HEADER.remove();
+        
     }
 }
