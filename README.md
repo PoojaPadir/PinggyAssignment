@@ -20,4 +20,15 @@ This project uses the following dependencies:
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone "https://github.com/PoojaPadir/PinggyAssignment.git"
+
+2.Navigate to the project directory:
+cd assignment
+
+3.Build the project using Maven:
+mvn clean install
+
+4.Run the application:
+mvn spring-boot:run
+
+The application will start and listen for HTTP requests on port 8080 by default.
